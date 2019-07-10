@@ -3,12 +3,21 @@
       xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="utf-8"/>
-<title>Product Manager</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Product Manager</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width"/>
+    <base href="/"/>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/webjars/font-awesome/css/font-awesome.min.css"></link>
 </head>
 <body>
+<div class="container">
 <div align="center">
     <h1>Product List</h1>
-    <a href="/new">Create New Product</a>
+    <a href="/new" class="btn btn-danger">Create New Product</a>
     <br/><br/>
     <table border="1" cellpadding="10">
         <thead>
@@ -35,6 +44,7 @@
             </tr>
         </tbody>
     </table>
+</div>
 </div>   
 </body>
 </html>
